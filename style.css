@@ -1,0 +1,142 @@
+*{
+    font-family: sans-serif, Arial, Helvetica;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: url("./images/bg-img.jpg") no-repeat center/cover;
+    background-color: #945719;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 2%;
+    padding: 1% 2% 0%;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 4%;
+}
+
+nav{
+    display: flex;
+    margin-left: 4%;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 4px #fff solid;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+}
+.nav-items{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+.nav-item{
+    margin-right: 1%;
+    color:#fff;
+    font-size: 20px;
+    font-weight: 800;
+}
+.call-us-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+}
+.call-content-div{
+    margin-left: 4%;
+    color: #fff;
+    font-weight: 800;
+}
+
+main{
+    margin: 1% 2%;
+    padding: 1% 2%;
+}
+
+.top-sec{
+    color:#fff;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.big-txt-div{
+    width: 40%;
+    margin-top: 4%;
+    text-align: left;
+    margin-left: 4%;
+}
+.big-txt{
+    font-size: 48px;
+}
+.puzzle-box-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 16%;
+}
+.box-div{
+    background-color: rgba(255, 255, 255, 0.359);
+    width: 248px;
+    height: 160px;
+    display: inline-block;
+}
+.box-icn-div{
+    background-color: #fff;
+    width:80px;
+    padding:4px;
+    border-radius:32px;
+    margin:16px;
+    text-align: center;
+}
+.box-txt-div{
+    text-align: left;
+    padding: 4px 16px;
+}
+.box-txt{
+    font-weight:600;
+}
+.y-line{
+    background-color: rgba(255, 255, 255, 0.359);
+    padding:36px 2px;
+}
+.white-circle{
+    background-color: #fff;
+    border-radius: 50%;
+    padding:8px;
+}
+
+.bottom-sec{
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+}
+.learn-more-div{
+    margin-left: 4%;
+}
+.learn-more{
+    border:2px #fff solid;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 32px;
+    padding:16px 32px;
+    font-size:28px;
+    color:#fff;
+}
+.bulb-box-div{
+    display: flex;
+    align-items: center;
+    margin-right: 25%;
+}
+.x-line{
+    background-color: rgba(255, 255, 255, 0.359);
+    padding:2px 36px;
+}
